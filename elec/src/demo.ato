@@ -1,7 +1,7 @@
 from "generics/interfaces.ato" import I2C, Power, USB2
 
 from "rp2040/RP2040Kit.ato" import RP2040Kit
-from "rt9013_33gb/elec/src/rt9013_33gb.ato" import RT9013_33GB
+from "rt9013_33gb/rt9013_33gb.ato" import Rt901333gb
 from "kmr211nglfs/kmr211nglfs.ato" import Kmr211nglfs
 from "max30102efd+t/max30102efd+t.ato" import Max30102efd_t
 from "usb-c-connector/usb-connectors.ato" import USBCConn
@@ -25,7 +25,7 @@ module PowerSupply:
     power_out_3v3 = new Power
 
     """Components"""
-    regulator = new RT9013_33GB
+    regulator = new Rt901333gb
 
     """Connections"""
     power_in_5v0 ~ regulator.power_in
@@ -91,3 +91,6 @@ module Demo:
     power_supply.power_out_3v3 ~ microcontroller.power_in_3v3
     microcontroller.i2c ~ sensor.i2c
     microcontroller.i2c ~ temperature_sensor.i2c
+
+    usb_connector.usb.dp.override_net_name = "usb_P"
+    usb_connector.usb.dm.override_net_name = "usb_N"
