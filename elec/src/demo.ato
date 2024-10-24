@@ -1,0 +1,80 @@
+from "generics/interfaces.ato" import I2C, Power, USB2
+
+from "rp2040/RP2040Kit.ato" import RP2040Kit
+from "rt9013_33gb/elec/src/rt9013_33gb.ato" import RT9013_33GB
+from "kmr211nglfs/kmr211nglfs.ato" import Kmr211nglfs
+from "max30102efd+t/max30102efd+t.ato" import Max30102efd_t
+from "usb-c-connector/usb-connectors.ato" import USBCConn
+
+module UsbConnector:
+    """Interfaces"""
+    usb = new USB2
+    power_out_5v0 = new Power
+
+    """Components"""
+    usb_type_c = new USBCConn
+
+    """Connections"""
+    usb ~ usb_type_c.usb2
+    power_out_5v0 ~ usb_type_c.power
+
+module PowerSupply:
+    """Interfaces"""
+    power_in_5v0 = new Power
+    power_out_3v3 = new Power
+
+    """Components"""
+    regulator = new RT9013_33GB
+
+    """Connections"""
+    power_in_5v0 ~ regulator.power_in
+    power_out_3v3 ~ regulator.power_out
+
+
+module Microcontroller:
+    """Interfaces"""
+    power_in_5v0 = new Power
+    power_in_3v3 = new Power
+    i2c = new I2C
+    usb = new USB2
+
+    """Components"""
+    rp2040 = new RP2040Kit
+
+    """Values"""
+    rp2040.boot_btn.btn -> Kmr211nglfs
+
+    """Connections"""
+    power_in_3v3 ~ rp2040.power_3v3
+    i2c ~ rp2040.i2c
+    usb ~ rp2040.usb2
+
+module HeartRateSensor:
+    """Interfaces"""
+    i2c = new I2C
+
+    """Components"""
+    sensor = new Max30102efd_t
+
+    """Connections"""
+    i2c ~ sensor.i2c
+
+
+module Demo:
+    """Parameters"""
+
+    """Interfaces"""
+
+    """Components"""
+    usb_connector = new UsbConnector
+    power_supply = new PowerSupply
+    sensor = new HeartRateSensor
+    microcontroller = new Microcontroller
+
+    """Values"""
+
+    """Connections"""
+    usb_connector.power_out_5v0 ~ power_supply.power_in_5v0
+    usb_connector.usb ~ microcontroller.usb
+    power_supply.power_out_3v3 ~ microcontroller.power_in_3v3
+    microcontroller.i2c ~ sensor.i2c
