@@ -6,51 +6,29 @@
 #import "notes.typ": notes
 
 #let company = (
-    name:           "Diode, Inc.",
+    name:           "", // TODO: Replace with actual company name
     logo:           "./diode-logo.svg",
-    website_url:    "https://github.com/somecompany",
+    website_url:    "", // TODO: Replace with actual website
 )
 
 #let metadata = (
     title: [Demo],
-    product: "DD1234",
-    product_url: "https://github.com/oldrev/tids",
+    product: "", // TODO: Replace with actual product number
+    product_url: "", // TODO: Replace with actual product URL
     confidential: false,
 )
 
 #let features = [
-    - Add features here
-    - ...
+    // TODO: Replace with actual features
 ]
 
 
 #let applications = [
-
-    Add application description here
-
-    - Add Applications here
-    - ...
-
-    #figure(
-        rect(image("./assets/diode-logo.svg"), stroke: 0.5pt), caption: "Typical Application"
-    )
+    // TODO: Replace with actual applications
 ]
 
 #let desc = [
-    Add description here ...
-
-    #figure(rect(height: 30%,
-    canvas(length: 0.75cm, {
-        plot.plot(size: (8, 6),
-        x-tick-step: 1,
-        x-ticks: ((-calc.pi, $-pi$), (0, $0$), (calc.pi, $pi$)),
-        y-tick-step: 1,
-        {
-            plot.add(
-            domain: (-calc.pi, calc.pi), x => calc.sin(x * 1rad))
-        })
-    })
-    ), caption: [Example Plot])
+    // TODO: Replace with actual description
 ]
 
 #show: doc => datasheet(
@@ -69,51 +47,17 @@
 == Pin Configuration and Functions
 <PinConfigAndFunctions>
 
-#lorem(30)
-
-#lorem(30)
+// TODO: Replace with actual pin configuration and functions
 
 == Specifications
 <Specifications>
 
-#table(
-    columns: (1fr, auto, auto, auto, auto, auto, 1fr),
-    align: (left,center,right,right,right,left,left,),
-
-    table.header([Parameters], [Symbol], [Minimum], [Typical], [Maximum], [Unit], [Condition]),
-
-    [Rated Voltage], [$V_(upright("IN"))$], [5], [—], [24], [V], [—],
-
-    [Rated Current], [$I$], [100], [150], [1,000], [mA], [Using 5V Supply],
-
-    [High-Level Voltage], [$V_(upright("OH"))$], [4.5], [—], [—], [V], [—],
-
-    [Low-Level Voltage], [$V_(upright("OL"))$], [—], [—], [0.5], [V], [—],
-
-    [Output High-Level Current], [$I_(upright("OH"))$], [—], [20], [—], [mA], [—],
-)
+// TODO: Replace with actual specifications
 
 == Absolute Maximum Ratings
 <AbsoluteMaximumRatings>
 
-#table(
-    columns: (auto, auto, auto, auto, auto, 1fr),
-    align: (left,center,right,right,center,left),
-
-    table.header([Parameter], [Symbol], [Minimum Value], [Maximum Value], [Unit], [Note]),
-
-    [Power Supply Voltage], [$V_(upright("IN"))$], [0], [30], [V],[],
-
-    [Ambient Temperature], [$T_A$], [-25], [85], [°C],[],
-)
-
-#warning(title: "Warning")[
-    This is a warning
-]
-
-#error(title: "Error")[
-    This is an error
-]
+// TODO: Replace with actual absolute maximum ratings
 
 #pagebreak()
 
@@ -122,13 +66,11 @@
 
 == Overview
 
-#lorem(200)
-
-#lorem(200)
+ // TODO: Replace with actual overview
 
 == Functional Block Diagram
 
-#lorem(200)
+ // TODO: Replace with actual functional block diagram
 
 #pagebreak()
 
@@ -136,23 +78,23 @@
 
 === Application Information
 
-#lorem(200)
+ // TODO: Replace with actual application information
 
 === Typical Applications
 
-#lorem(200)
+ // TODO: Replace with actual typical applications
 
 === Design Requirements
 
-#lorem(200)
+ // TODO: Replace with actual design requirements
 
 = Power Supply Recommendations
 
-#lorem(200)
+ // TODO: Replace with actual power supply recommendations
 
 === PCB Layout
 
-#lorem(200)
+ // TODO: Replace with actual PCB layout
 
 #pagebreak()
 
@@ -162,12 +104,10 @@
 
 === Related Links
 
-#lorem(200)
+ // TODO: Replace with actual related links. If available, add links to datasheets, application notes, etc.
 
 #pagebreak()
   
 = Mechanical, Packaging, and Orderable Information
 
-#lorem(30)
-
-this is something that should wor
+ // TODO: Replace with actual mechanical, packaging, and orderable information
