@@ -1,0 +1,14 @@
+from "elec/src/generated.ato" import _Demo
+
+
+module Demo from _Demo:
+    """Parameters"""
+
+    """Interfaces"""
+
+    """Components"""
+    
+
+    """Values"""
+
+    """Connections"""

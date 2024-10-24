@@ -1,0 +1,9 @@
+[module]
+name = "demo"
+entry = "demo.ato:Demo"
+tags = []
+
+
+
+[docs]
+datasheet = "docs/demo.typ"
