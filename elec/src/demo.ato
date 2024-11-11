@@ -4,7 +4,7 @@ from "rp2040/RP2040Kit.ato" import RP2040Kit
 from "rt9013_33gb/elec/src/rt9013_33gb.ato" import RT9013_33GB
 from "kmr211nglfs/kmr211nglfs.ato" import Kmr211nglfs
 from "max30102efd+t/max30102efd+t.ato" import Max30102efd_t
-from "usb-c-connector/usb-connectors.ato" import USBCConn
+from "kh-type-c-16p/kh-type-c-16p.ato" import USBCConn
 from "max30208clb/max30208clb.ato" import Max30208clb
 
 module UsbConnector:

@@ -232,7 +232,7 @@
 				)
 			)
 		)
-		(property "Value" "16V 100nF X7R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 180)
 			(layer "F.Fab")
 			(uuid "fea73108-7b3c-4dc2-9ce1-b5e25be983df")
@@ -1078,7 +1078,7 @@
 				)
 			)
 		)
-		(property "Value" "50V 20pF C0G Â±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "50V 20pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "4b7be28a-e6ae-475d-9333-819fd44ec73f")
@@ -1512,7 +1512,7 @@
 				)
 			)
 		)
-		(property "Value" "62.5mW Thick Film Resistors 50V Â±100ppm/â Â±1% 10kÎ© 0402  Chip Resistor - Surface Mount ROHS"
+		(property "Value" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(uuid "6b44776b-755b-44e2-93b0-fffd8f7e03ff")
@@ -1718,7 +1718,7 @@
 				)
 			)
 		)
-		(property "Value" "50V 20pF C0G Â±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "50V 20pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(uuid "c1956f8a-8b79-45b9-986f-875915107fc7")
@@ -2184,7 +2184,7 @@
 				)
 			)
 		)
-		(property "Value" "62.5mW Thick Film Resistors 50V Â±100ppm/â Â±1% 10kÎ© 0402  Chip Resistor - Surface Mount ROHS"
+		(property "Value" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "648deb9c-812c-4dd2-835d-b6dc14fd2b0c")
@@ -2390,7 +2390,7 @@
 				)
 			)
 		)
-		(property "Value" "16V 100nF X7R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 180)
 			(layer "F.Fab")
 			(uuid "3d1c975d-2836-421a-9a2d-a7096eecfb08")
@@ -2596,7 +2596,7 @@
 				)
 			)
 		)
-		(property "Value" "16V 100nF X7R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "22b73dd7-12ff-4d7f-a3e1-a0990e6ad915")
@@ -3385,7 +3385,7 @@
 				)
 			)
 		)
-		(property "Value" "16V 100nF X7R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "e3300866-38b3-41f3-b595-aaeaf71152a6")
@@ -3591,7 +3591,7 @@
 				)
 			)
 		)
-		(property "Value" "16V 100nF X7R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(uuid "afa890d5-c795-47f7-925c-84436b2ee7d1")
@@ -3797,7 +3797,7 @@
 				)
 			)
 		)
-		(property "Value" "16V 100nF X7R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "839baa83-483a-4c53-aebd-dfcf1b158204")
@@ -4002,7 +4002,7 @@
 				)
 			)
 		)
-		(property "Value" "25V 1uF X5R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 180)
 			(layer "F.Fab")
 			(uuid "2779b413-0da8-48af-87e3-3650ba3ce867")
@@ -4759,7 +4759,7 @@
 				)
 			)
 		)
-		(property "Value" "62.5mW Thick Film Resistors 50V Â±100ppm/â Â±1% 5.1kÎ© 0402  Chip Resistor - Surface Mount ROHS"
+		(property "Value" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "395d70a1-4cf6-4009-90b7-c2ff42324b22")
@@ -4965,7 +4965,7 @@
 				)
 			)
 		)
-		(property "Value" "62.5mW Thick Film Resistors 50V Â±100ppm/â Â±1% 27Î© 0402  Chip Resistor - Surface Mount ROHS"
+		(property "Value" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 27Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(uuid "a41a68de-abc1-475c-b1cc-df5b372889b5")
@@ -5171,7 +5171,7 @@
 				)
 			)
 		)
-		(property "Value" "62.5mW Thick Film Resistors 50V Â±100ppm/â Â±1% 1kÎ© 0402  Chip Resistor - Surface Mount ROHS"
+		(property "Value" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "1cab4c77-6cf6-489c-8fd7-3c5f7ebf46ca")
@@ -5377,7 +5377,7 @@
 				)
 			)
 		)
-		(property "Value" "16V 100nF X7R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(uuid "cb8e90a4-ee1b-40b6-a66d-f479c5e4781f")
@@ -5582,7 +5582,7 @@
 				)
 			)
 		)
-		(property "Value" "25V 1uF X5R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "13c0774a-b007-4967-ad9e-6bf76952f3f5")
@@ -5788,7 +5788,7 @@
 				)
 			)
 		)
-		(property "Value" "16V 100nF X7R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "682df282-0c6b-4055-81a2-204e958bdbdb")
@@ -5994,7 +5994,7 @@
 				)
 			)
 		)
-		(property "Value" "62.5mW Thick Film Resistors 50V Â±100ppm/â Â±1% 27Î© 0402  Chip Resistor - Surface Mount ROHS"
+		(property "Value" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 27Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "a024587e-289a-4eb9-a0c8-61225fd85d88")
@@ -6200,7 +6200,7 @@
 				)
 			)
 		)
-		(property "Value" "25V 1uF X5R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 180)
 			(layer "F.Fab")
 			(uuid "cd9956fc-ffc9-4b11-9ffa-e5c69b09a6fd")
@@ -6406,7 +6406,7 @@
 				)
 			)
 		)
-		(property "Value" "25V 1uF X5R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(uuid "45a4d57a-e2d9-407a-bf84-58648a338441")
@@ -6611,7 +6611,7 @@
 				)
 			)
 		)
-		(property "Value" "62.5mW Thick Film Resistors 50V Â±100ppm/â Â±1% 5.1kÎ© 0402  Chip Resistor - Surface Mount ROHS"
+		(property "Value" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "de638061-7e3c-45b3-99d7-cd4ca2bd57d4")
@@ -6818,7 +6818,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "16V 100nF X7R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "471dba50-4267-435b-9c23-704a5e1fedc9")
@@ -7030,7 +7030,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "6.3V 10uF X5R Â±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "6.3V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "d98c24d4-6276-483a-bc99-cb338c87984c")
@@ -7230,7 +7230,7 @@
 		(descr "MAX30208CLB+T-3")
 		(tags "Integrated Circuit")
 		(property "Reference" "U4"
-			(at -0.01 -2.05 360)
+			(at -0.01 -2.05 0)
 			(layer "B.SilkS")
 			(uuid "d6dd5b83-5bae-43f0-90d6-eff7c088a906")
 			(effects
@@ -7242,7 +7242,7 @@
 			)
 		)
 		(property "Value" "?"
-			(at -0.2 0 360)
+			(at -0.2 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "06e95e3e-e5dc-4277-9132-604813d60531")
@@ -7255,7 +7255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "91c2ef9d-2d65-46e1-a97d-70ccd83607ae")
@@ -7268,7 +7268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "aee7605b-9cb4-40e3-a0cf-25d81e655949")
@@ -7281,7 +7281,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "df20884a-3fed-41d6-9dee-d8ee198f138f")
@@ -7418,7 +7418,7 @@
 			(uuid "871f433a-7574-4ad5-b459-cee70814d7a2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.2 0 360)
+			(at -0.2 0 0)
 			(layer "B.Fab")
 			(uuid "06639df4-6e51-4cac-9575-5a7861b45887")
 			(effects
@@ -7530,7 +7530,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "16V 100nF X7R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "a0943bf5-20c9-429a-ab70-b757fb42a015")
@@ -8058,7 +8058,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10V 4.7uF X5R Â±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "214fd2bc-c389-4184-ba9b-99d04426d37c")
@@ -8269,7 +8269,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "16V 100nF X7R Â±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Value" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "2f7d2efc-64c0-4408-a3e9-52e9e3bb6ba3")
