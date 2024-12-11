@@ -5,7 +5,6 @@ from "rt9013_33gb/elec/src/rt9013_33gb.ato" import RT9013_33GB
 from "kmr211nglfs/kmr211nglfs.ato" import Kmr211nglfs
 from "max30102efd+t/max30102efd+t.ato" import Max30102efd_t
 from "kh-type-c-16p/kh-type-c-16p.ato" import USBCConn
-from "max30208clb/max30208clb.ato" import Max30208clb
 
 module UsbConnector:
     """Interfaces"""
@@ -30,16 +29,6 @@ module PowerSupply:
     """Connections"""
     power_in_5v0 ~ regulator.power_in
     power_out_3v3 ~ regulator.power_out
-
-module TemperatureSensor:
-    """Interfaces"""
-    i2c = new I2C
-
-    """Components"""
-    sensor = new Max30208clb
-
-    """Connections"""
-    i2c ~ sensor.i2c
 
 
 module Microcontroller:
@@ -80,7 +69,6 @@ module Demo:
     usb_connector = new UsbConnector
     power_supply = new PowerSupply
     sensor = new HeartRateSensor
-    temperature_sensor = new TemperatureSensor
     microcontroller = new Microcontroller
 
     """Values"""
@@ -90,4 +78,3 @@ module Demo:
     usb_connector.usb ~ microcontroller.usb
     power_supply.power_out_3v3 ~ microcontroller.power_in_3v3
     microcontroller.i2c ~ sensor.i2c
-    microcontroller.i2c ~ temperature_sensor.i2c
