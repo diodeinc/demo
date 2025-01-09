@@ -17,3 +17,6 @@ generics = { path = "generics", registry = "pcblib" }
 rt9013_33gb = { path = "parts/rt9013_33gb", registry = "pcblib" }
 max30208clb = { path = "parts/max30208clb", registry = "pcblib" }
 kh-type-c-16p = { path = "lcsc/kh-type-c-16p", registry = "pcblib" }
+
+[releases]
+"1.0.0" = { path = "releases/1.0.0", version = "1.0.0", git_hash = "662bfe9" }

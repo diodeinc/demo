@@ -1,0 +1,14 @@
+{
+  "assembly": {
+    "components": 136,
+    "components_bottom": 28,
+    "components_top": 108,
+    "joints": 704,
+    "sides": 2
+  },
+  "dimensions": {
+    "length": 64.1,
+    "width": 64.1
+  },
+  "layers": 4
+}

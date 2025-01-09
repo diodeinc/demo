@@ -1,0 +1,19 @@
+[module]
+name = "demo"
+entry = "elec/src/demo.ato:Demo"
+tags = []
+
+[registries]
+pcblib = { url = "https://github.com/diodeinc/demolib", rev = "main" }
+
+[docs]
+datasheet = "docs/demo.typ"
+
+[dependencies]
+kmr211nglfs = { path = "buttons/kmr211nglfs", registry = "pcblib" }
+rp2040 = { path = "parts/rp2040", registry = "pcblib" }
+"max30102efd+t" = { path = "parts/max30102efd+t", registry = "pcblib" }
+generics = { path = "generics", registry = "pcblib" }
+rt9013_33gb = { path = "parts/rt9013_33gb", registry = "pcblib" }
+max30208clb = { path = "parts/max30208clb", registry = "pcblib" }
+kh-type-c-16p = { path = "lcsc/kh-type-c-16p", registry = "pcblib" }
