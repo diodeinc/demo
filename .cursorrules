@@ -41,6 +41,8 @@ Best Practices:
 - Include the appropriate interfaces when used <example>from "generics/interfaces.ato" import Power, I2C, Gpio</example>.
 - Whenever a component is repeated, use a module to define it.
 - Always check the datasheet/component.md file when implementing a circuit around a component.
+- Always check the datasheet/interfaces.md file when implementing a circuit around a component.
+- If schematics are not compiling, look at the source atopile in the imported libraries.
 
 Terminal tools available:
 - `pcb docs` will generate a datasheet for the project from typst documentation.
