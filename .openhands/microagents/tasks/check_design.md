@@ -19,6 +19,8 @@ triggers:
 
 This guide outlines the process of reviewing a module in Atopile.
 
+- ALWAYS check source files for `from "<import_folder>/<import_file>.ato` in the `.ato/modules/<import_folder>` folder if you make changes to modules that use that import
+
 ## Common Electrical Engineering Issues to Check
 
 IMPORTANT: When in doubt, always refer to the datasheet of the component, located in the .ato/modules/<component_name>/datasheet/<datasheet_name>.md file.
