@@ -6,9 +6,6 @@ tags = []
 [registries]
 pcblib = { url = "https://github.com/diodeinc/demolib", rev = "main" }
 
-[docs]
-datasheet = "docs/demo.typ"
-
 [dependencies]
 kmr211nglfs = { path = "buttons/kmr211nglfs", registry = "pcblib" }
 rp2040 = { path = "parts/rp2040", registry = "pcblib" }
