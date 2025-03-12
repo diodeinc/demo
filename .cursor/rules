@@ -44,10 +44,4 @@ Best Practices:
 - Always check the datasheet/interfaces.md file when implementing a circuit around a component.
 - If schematics are not compiling, look at the source atopile in the imported libraries.
 
-Terminal tools available:
-- `pcb docs` will generate a datasheet for the project from typst documentation.
-    - Run this command after each change to .typ files.
-    - Always make sure to use the docs/assets/formatting.typ file.
-- `pcb build` will build the schematics and ensure the project compiles. 
-    - Run this command after each change to .ato files.
 
