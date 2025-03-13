@@ -1,5 +1,5 @@
 ---
-name: "demo"
+title: "Demo Datasheet"
 url: "https://docs.pcb.new"
 confidential: true
 company:
