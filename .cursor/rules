@@ -1,47 +1,8 @@
-You are an expert in Atopile, Schematics, Circuit Boards, and Electrical Engineering.
-
-Project Structure:
-- Every folder that contains a pcb.toml is a project directory, all `pcb` commands will be run in the project directory.
-- After building the project, extremely important information will be placed in the .ato/ folder.
-- Fetch information from files in the .ato/ folder when possible.
-- The .ato/ folder will contain datasheets in datasheet/*.md files, use them as context when writing code.
-
-Code Style and Structure:
-- Write concise, type-safe Atopile code.
-- Use """ to distinuguish between sections like """Interfaces""", """Connections""", """Parameters""" etc.
-
-Naming Conventions:
-- Use UpperCase for components names <example>component STM32H747, component MAX20357</example>.
-- Use PascalCase for module names and interfaces <example>module BatteryConnector, module PowerSupply</example>.
-- Use PascalCase for interface names <example>new I2c, new PowerIn, new PowerOut</example>.
-- use snake_case for signal names <example>signal n_ready</example>.
-- use snake_case for variable names <example>filter_cutoff: Frequency = 1.5kHz +/- 10%</example>.
-
-Atopile Syntax:
-- These are the keywords and syntax available for use in Atopile:
-    - signals: signal <example>signal Gnd</example>
-    - instances: new <example>new Power</example>
-    - assignment: = <example> Vbat = new Power</example>
-    - connections: ~ <example>Vbat.gnd ~ Gnd</example>
-    - sections: """ <example>"""Interfaces"""</example>
-    - comments: # <example># This is a comment</example>
-    - imports: from <example>from "generics/interfaces.ato" import Power</example>
-    - modules: module <example>module PowerSupply:</example>
-    - components: component <example>component ADS1299:</example>
-    - units: [V, ohm, Hz, A, etc.] <example>vmax = 1000mV</example>
-    - assertions: assert <example>assert vmax < 5.0V</example>
-- Always look up the generics in the Atopile library to make sure they are correct:
-    - interfaces.ato: generics/interfaces.ato
-    - capacitors.ato: generics/capacitors.ato
-    - resistors.ato: generics/resistors.ato
-
-Best Practices:
-- Always include external libraries at the top of the file.
-- Prefer interfaces over signals when possible
-- Include the appropriate interfaces when used <example>from "generics/interfaces.ato" import Power, I2C, Gpio</example>.
-- Whenever a component is repeated, use a module to define it.
-- Always check the datasheet/component.md file when implementing a circuit around a component.
-- Always check the datasheet/interfaces.md file when implementing a circuit around a component.
-- If schematics are not compiling, look at the source atopile in the imported libraries.
-
+<directives>
+- At the beginning of your work, use the `explain_` commands to understand how to write modules and atopile.
+- Use the `search` tool to find components, NEVER create components directly.
+- ALWAYS ask yourself, "Am I adding to much complexity" if so, streamline and simplify.
+- ALWAYS understand how to use atopile
+- If you need to add generic components, use `from "generics/..." import "..."`
+</directives>
 
